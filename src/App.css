@@ -1,0 +1,32 @@
+.ColorBox{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display: inline-block;
+  color: white;
+  text-align: center; 
+}
+h2{
+  
+  animation: party 1s 1s 20 reverse;
+  animation-duration: 10s;
+  animation-delay: 0s 6000ms;
+}
+@keyframes party{
+  0%{
+    color: yellow;
+  }
+  25%{
+    color: green;
+  }
+  50%{
+    color: blue;
+  }
+  75%{
+    color: darkmagenta;
+  }
+  100%{
+    color: indigo;
+  }
+}
+
